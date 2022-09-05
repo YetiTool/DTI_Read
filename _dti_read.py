@@ -27,7 +27,7 @@ while True:
         delta_min_max = (max_reading - min_reading)
 
         print("\n"*40)
-        print("Current Reading:  {0:.3f}".format(reading))
+        print(f"Current Reading: {reading:.3f}")
         print(f"Max Reading: {max_reading:.3f}")
         print(f"Min Reading: {min_reading:.3f}")
         print(f"Delta: {delta_min_max:.3f}")
